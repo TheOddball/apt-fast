@@ -56,13 +56,14 @@ You can quickly install `apt-fast` by running:
 /bin/bash -c "$(curl -sL https://git.io/vokNn)"
 ```
 
+### Ubuntu PPA ###
+
 ```sh
 sudo add-apt-repository ppa:apt-fast/stable
 sudo apt-get update
 sudo apt-get -y install apt-fast
 ```
 
-### Ubuntu PPA ###
 You can use the Ubuntu PPA to get a graphical configuration file setup and automatic updates, for details see:
 
 * [ppa:apt-fast/stable](https://code.launchpad.net/~apt-fast/+archive/stable)

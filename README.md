@@ -49,6 +49,13 @@ apt-fast is a shellscript wrapper for apt-get and aptitude that can drastically 
 Installation
 ------------
 
+### Quick install ###
+You can quickly install `apt-fast` by running:
+
+```bash
+/bin/bash -c "$(curl -sL https://git.io/vokNn)"
+```
+
 ```sh
 sudo add-apt-repository ppa:apt-fast/stable
 sudo apt-get update
@@ -92,14 +99,6 @@ To update specific configuration values use the debconf command line interface a
 echo debconf apt-fast/maxdownloads string 16 | debconf-set-selections
 echo debconf apt-fast/dlflag boolean true | debconf-set-selections
 echo debconf apt-fast/aptmanager string apt-get | debconf-set-selections
-```
-
-
-### Quick install ###
-You can quickly install `apt-fast` by running:
-
-```bash
-/bin/bash -c "$(curl -sL https://git.io/vokNn)"
 ```
 
 ### Manual ###
